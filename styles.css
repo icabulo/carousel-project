@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto+Mono:ital,wght@0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+/* defaul swiper attributes */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  background: #000;
+  color: #000;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  /* cursor: grab; */
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.7;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+  /* border: 1px solid red; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* **************
+custom properties 
+***************** */
+
+.slider-component {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.slider-container {
+  width: 70vw;
+  height: 70vh;
+  /* align-self: center; */
+}
+
+.mySwiper .swiper-slide img:hover {
+  /* cursor: pointer; */
+  border: 1px solid #ff00c7;
+}
+
+.mySwiper2 .swiper-slide {
+  flex-direction: column;
+}
+
+.mySwiper2 .swiper-slide img {
+  width: auto;
+  height: 85%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #ff00c7;
+  height: 100vh;
+  width: 10%;
+  top: 0;
+  color: white;
+  /* z-index: 4; */
+  /* overflow: visible !important; */
+  /* background-position: center; */
+}
+
+.swiper-slide p {
+  padding-top: 15px;
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  border: 4px solid #ff00c7;
+}
+
+/* .mySwiper {
+  border: 2px solid black;
+  width: 100vw;
+  position: absolute;
+} */
